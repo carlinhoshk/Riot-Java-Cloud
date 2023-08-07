@@ -1,4 +1,14 @@
 spring:
   application:
-    name:
+    name: eurekaserver
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetch-registry: false
+
+
 
